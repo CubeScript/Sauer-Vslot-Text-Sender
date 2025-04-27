@@ -10,7 +10,7 @@ It is common practice in Sauerbraten to use the `/do $maptitle` command to share
 More specifically, it makes use of the `vshaderparam` and `getvshaderparamnames` commands. You can see a more detailed explanation [here](#vsts-inner-workings).
 
 # How to Install
-- Download [vsts.zip](/releases/latest) and move it to the root folder of your Sauerbraten.
+- Download [vsts.zip](https://github.com/CubeScript/Sauer-Vslot-Text-Sender/releases/latest/download/vsts.zip) and move it to the root folder of your Sauerbraten.
 - Add the command `addzip "vsts.zip"; exec vsts.cfg` to your `autoexec.cfg` (you can open it with `/notepad autoexec.cfg`, edit, save, and execute it.)
 - Once the installation is done, there will be a map that can be loaded with `/coop vsts_shaders` and an additional menu that can be opened with `/vshadereditor`.
 
@@ -21,7 +21,7 @@ More specifically, it makes use of the `vshaderparam` and `getvshaderparamnames`
 
 - Or even (and this is totally unnecessary) you can load the `vsts_shaders` map and run `/do $maptitle`, since all the contents of `vsts.cfg` are included in the geometry :)
 
-- If you don't feel like playing around with shaders, you can [install the vsts_lite.cfg file](), which only has the essential **VSTS** commands — no GUI, no shaders.
+- If you don't feel like playing around with shaders, you can [install the vsts_lite.cfg file](https://github.com/CubeScript/Sauer-Vslot-Text-Sender/releases/latest/download/vsts_lite.cfg), which only has the essential **VSTS** commands — no GUI, no shaders.
 
 </details>
 
