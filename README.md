@@ -1,5 +1,5 @@
 # Sauer-Vslot-Text-Sender
-Store and share text files of unlimited sizes using [Sauerbraten](http://sauerbraten.org/)'s map geometry.
+Store and share text files of unlimited* sizes using [Sauerbraten](http://sauerbraten.org/)'s map geometry.
 
 **Vslot Text Sender (VSTS)** is a set of commands that allows you to encode text into the geometry of Sauerbraten maps, enabling you to share them with `/sendmap` and retrieve them with `/getmap`.
 
