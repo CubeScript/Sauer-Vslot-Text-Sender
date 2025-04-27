@@ -196,6 +196,8 @@ And that’s all we need to do to retrieve the original text: "cube 2 sauerbrate
 
 There is a menu available as a proof of concept to enable sharing GLSL code between players using the **VSTS** system. It allows you to control which shaders from other players should be applied, as well as create your own or edit existing ones.
 
+![](https://raw.githubusercontent.com/SalatielSauer/misc/refs/heads/master/vsts_shadereditor_0.png)
+
 GLSL allows you to create all kinds of effects on textures, when you create a new shader slot, you will have this text by default:
 
 ```glsl
@@ -259,6 +261,11 @@ The menu workflow works as follows:
 - Set a description and a filename;
 
     Shader files must have the `.glsl` extension, and files ending with `.cfg` will display a button to execute them.
+    
+    ![](https://raw.githubusercontent.com/SalatielSauer/misc/refs/heads/master/vsts_shadereditor_3.png)
+    Tip: you can navigate the folder pages by typing ">>"
+
+
 
 - Customize the body of your VSTS with any content you wish to share;
 - Optionally save the file;
@@ -269,6 +276,13 @@ The menu workflow works as follows:
 - Select another geometry and click `[share from local save]` so that the content is effectively written into the map for other players to access;
 
     After a few seconds, your **VSTS** should appear in the main menu for all players. If it doesn't happen, type `/sendmap` and ask other players to run `/getmap`.
+
+    ![](https://raw.githubusercontent.com/SalatielSauer/misc/refs/heads/master/vsts_shadereditor_2.png)
+
+- You can `[allow]` and `[disable]` shaders whenever you want.
+
+    ![](https://raw.githubusercontent.com/SalatielSauer/misc/refs/heads/master/vsts_shadereditor_1.png)
+
 
 Common confusions:
 
