@@ -85,6 +85,21 @@ More specifically, it makes use of the `vshaderparam` and `getvshaderparamnames`
     /echo (vsts_read 1704)
     ```
 
+- ### `/vsts_sendfile [file name]`
+    Uses `vsts_write` to store the contents of a local file in the selected geometry.
+
+    Example:
+    ```cs
+    /vsts_sendfile "myfile.txt" // writes the file contents into the map geometry.
+    ```
+
+- ### `/vsts_getfile [source file name] [optional output name]`
+    Uses `vsts_read` to retrieve the file previously sent using `vsts_sendfile`. The file will be saved automatically with the same name.
+
+    Example:
+    ```cs
+    /vsts_getfile "myfile.txt" // retrieves and saves the file in the `vsts/myfile.txt` folder.
+    ```
 
 <hr>
 
